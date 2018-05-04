@@ -25,3 +25,10 @@ nav ul {
 	list-style-type: none;
 	padding: 0;
 }
+
+
+<style>
+body {
+background-color: green;
+color: white;
+</style>
