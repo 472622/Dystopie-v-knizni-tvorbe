@@ -5,15 +5,19 @@ publishDir: docs
 
 menu:
   main:
-    - name: Homepage
+    - name: Domovská stránka
       url: /
       weight: 10
-    - name: Archive
+    - name: Novinky
       identifier: post
       url: /post/
       weight: 20
+      name: About
+      identifier: post
+      url: /about/
+      weight: 20
 
 params:
-  description: Description of my new site.
+  description: Dystopický žánr.
   authors: Authors
 
