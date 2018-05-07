@@ -7,5 +7,21 @@
   <li>
     <a href="{{ .Permalink }}">{{.Title}}</a> — {{ .Date.Format "January 2, 2006" }}
   </li>
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>just a test</title>
+</head>
+<body>
+
+{{ partial "addthis" . }}
+
+<!-- zkouska !-->
+
+{{ partial "addthis-script" . }}
+</body>
+</html>
+
 {{ end }}
 {{ end }}
