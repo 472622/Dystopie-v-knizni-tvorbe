@@ -24,7 +24,7 @@ footer {
 }
 
 aside {
-  float: left;
+  float: right;
   width: 25%;
   margin-top: 1em;
 }
@@ -43,5 +43,12 @@ nav .active {
 }
 
 body{
-     background: #696969; 
+     background-color: #696969; 
+    }
+body{
+    color: #ffffff; 
+    }
+
+body{
+     body-color: #ffffff; 
     }
